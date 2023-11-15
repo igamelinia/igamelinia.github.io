@@ -23,11 +23,55 @@ html {
   background-color: #f5f5f5;
 }
 
+.expedition_ppt {
+  text-align: left;
+  background-color: #e3f6f5;
+}
+
+.expedition {
+  background-color: #bae8e8;
+}
+
+.salicyl_ppt {
+  background-color: #e3f6f5;
+}
+
+.salicyl {
+  background-color: #bae8e8;
+}
+
+.stroke_ppt {
+  background-color: #e3f6f5;
+}
+
+.stroke {
+  background-color: #bae8e8;
+}
+
+.diabetes_ppt {
+  background-color: #e3f6f5;
+}
+
+.diabetes {
+  background-color: #bae8e8;
+}
+
+.transaction_ppt {
+  background-color: #e3f6f5;
+}
+
+.transaction {
+  background-color: #bae8e8;
+}
+
+.conclusion {
+  background-color: #f5f5f5;
+}
+
 footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 160px;
   background-color: #272343;
   padding-top: 30px;
 }
