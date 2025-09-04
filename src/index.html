@@ -1,0 +1,920 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header Section Start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-lg text-fuchsia-600 block py-6">IGA Meliniarayani</a>
+        </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 cursor-pointer lg:hidden">
+            <span class="hamburger-line origin-top-left transition duration-300"></span>
+            <span class="hamburger-line transition duration-300"></span>
+            <span class="hamburger-line origin-bottom-left transition duration-300"></span>
+          </button>
+
+
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Home</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">About Me</a>
+              </li>
+              <li class="group">
+                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Portfolio</a>
+              </li>
+              <li class="group">
+                <a href="#experience" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Experience</a>
+              </li>
+              <li class="group">
+                <a href="#certificate" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Certificates</a>
+              </li>
+              <li class="group">
+                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Contact</a>
+              </li>
+              <li class="group">
+                <a href="https://drive.google.com/file/d/1OWmzgp8u-8HESqcGFuijgLrKfg_u4CdR/view" class="text-base text-dark py-2 mx-8 flex group-hover:text-fuchsia-500">Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header Section End -->
+
+
+  <!-- Hero Section Start -->
+  <section id="home" class="pt-36">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap items-center">
+        <div class="w-full self-center px-4 lg:w-1/2">
+          <h1 class="text-base font-semibold text-fuchsia-500 md:text-xl">Hello and Welcome!
+          I'm <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl mb-2">I Gusti Ayu Meliniarayani</span></h1>
+          <h2 class="font-medium text-slate-500 text-lg mb-7 lg:text-2xl">Data Scientist
+          <span class="text-slate-500"></span></h2>
+          <p class="italic font-semibold text-slate-400 mb-12 leading-relaxed">With knowledge in Data Science and Machine Learning, I offer the best performance and projects that produce quality works.</p>
+
+          <a href="#contact" class="text-base font-semibold text-white bg-purple-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
+        </div>
+        <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="relative mt-10 lg:mt-9 lg-right:0">
+            <img src="../img/meliniaa-removebg-preview.png" alt="I Gusti Ayu Melinia" class="max-w-full mx-auto">
+            <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+              <svg width="400" height="900" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#8A3FFC" d="M40.2,-54.5C48.6,-40.9,49.4,-24.9,54.5,-7.8C59.7,9.2,69.1,27.3,65.5,41.8C61.8,56.3,45.2,67.3,26.7,74.4C8.3,81.5,-11.9,84.8,-28.1,78.4C-44.4,72,-56.7,55.9,-62.9,39.2C-69.2,22.5,-69.3,5.1,-62.7,-7.4C-56.1,-19.9,-42.8,-27.5,-31.2,-40.6C-19.7,-53.6,-9.8,-72.2,3,-75.8C15.9,-79.4,31.8,-68.1,40.2,-54.5Z" transform="translate(100 100) scale(1.1)" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+
+  <!-- About Section Start -->
+  <section id="about" class="pt-36 pb-32">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-10 lg:w-1/2">
+          <h4 class="font-bold uppercase text-fuchsia-500 text-lg mb-3 ">About Me</h4>
+          <h2 class="font-bold text-gray-900 text-3xl mb-5 max-w-md lg:text-4xl">I am Meli, a passionate Data Enthusiast and a Data Scientist</h2>
+          <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg text-justify">I have strong expertise in Data Science and Machine Learning, enhanced through several intensive bootcamps and continuous self-learning. I specialize in extracting insights from data, building predictive models, and developing end-to-end machine learning solutions to solve real-world problems.</p>
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+          <h3 class="font-semibold text-slate-950 text-2xl mb-4 lg:text-3xl lg:pt-10">Lets Be Mutual!</h3>
+          <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">Feel Free To Get In Touch With Me!</p>
+          <div class="flex items-center">
+            <!-- GitHub -->
+            <a href="https://github.com/igamelinia" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/igustiayumeliniarayani/" target="_blank" class="w-9 h-9 mr-3 flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" xmlns="http://www.w3.org/2000/svg" width="32" class="fill-current" height="32" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+
+            <!-- Gmail -->
+            <a href="igamelinia13@gmail.com" target="_blank" class="w-9 h-9 mr-3 flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            </a>
+
+            <!-- Whatsapp -->
+            <a href="http://wa.me/+6285591338510" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+
+  <!-- Portfolio Section Start -->
+  <section id="portfolio" class="pt-36 pb-16 bg-fuchsia-100">
+    <div class="container mx-auto">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-fuchsia-500 mb-2">PORTFOLIO</h4>
+          <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">MY PROJECTS</h2>
+          <p class="font-medium text-md text-fuchsia-500 md:text-lg">A showcase of my Data Science and Machine Learning projects, these works reflect my passion for leveraging data to solve real-world challenges and drive innovation</p>
+        </div>
+      </div>
+
+
+      <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+
+        <!-- Project 1 -->
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.6038%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGxNWZMKX4/DL-x0B1blHB3c_qGrbSrlA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGxNWZMKX4&#x2F;DL-x0B1blHB3c_qGrbSrlA&#x2F;view?utm_content=DAGxNWZMKX4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3 text-center">Game Recommendation System</h3>
+          <p class="font-medium text-base text-slate-500 text-justify">A user-based game recommendation system built with a simple Neural Network model. This project uses an embedding representation for each game and leverages the similarity of embedding weights to generate relevant game recommendations based on user preferences.</p>
+            <div class="flex gap-3 mt-4">
+              <a href="https://github.com/igamelinia/Game-Recommendation-System" target="_blank" class="flex-1 text-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project</a>
+              <a href="https://drive.google.com/file/d/1BJaRi2B6UV-uOMoMhfspY_wqtta9sbNt/view?usp=sharing" target="_blank" class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">🎥 Demo Video</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGxQdhv4uQ/ro0mCVogZK8FC6YHlFsMZA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGfftdsYAI&#x2F;YhznCnT-rYYTR2v7kODfHw&#x2F;view?utm_content=DAGfftdsYAI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3 text-center">Chemical Trend Estimate</h3>
+          <p class="font-medium text-base text-slate-500 text-justify">This project focuses on forecasting the monthly consumption of sodium hypochlorite (NaOCl) for cooling tower treatment. By applying data preprocessing (cleaning, encoding, and feature engineering) and ensemble learning techniques with stacking, I developed a predictive model that estimates chemical usage more accurately. The solution includes a full pipeline and a user-friendly API built with Flask and HTML, helping industries optimize inventory planning and cost management.</p>
+            <div class="flex gap-3 mt-4">
+              <div class="relative flex-1">
+                <button onclick="toggleDropdown('dropdown3')" class="w-full flex justify-center items-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project
+                  <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div id="dropdown3" class="hidden absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-200">
+                  <a href="https://chemical-trend-estimate-production.up.railway.app" target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">🌐 Web App</a>
+                  <a href="https://github.com/igamelinia/Chemical-Trend-Estimate" target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">💻 GitHub</a>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/19k3a1P9lh9cnDhVDQEJq6Rya56fxl6so/view?usp=sharing" target="_blank" class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">🎥 Demo Video</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGxNREsNZE/TKaSiftTi4ecaxq4rELpzQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3 text-center">House Price Prediction</h3>
+          <p class="font-medium text-base text-slate-500 text-justify">This project aims to build a predictive system for house pricing based on factors such as location, area, facilities, and building conditions. I conducted data preprocessing, feature selection (RFE), and hyperparameter tuning to improve model performance. The project compared multiple models, including Linear Regression, Random Forest, and XGBoost.</p>
+            <div class="flex gap-3 mt-4">
+              <a href="https://github.com/igamelinia/House-Price-Estimate-Prediction" target="_blank" class="flex-1 text-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project 4 -->
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGfEPZh2fg/Gx6e0E-IcHkrogzYSdiOmQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3 text-center">Spam Message Detection</h3>
+          <p class="font-medium text-base text-slate-500 text-justify">A machine learning project that detects spam messages using the SMS Spam Collection Dataset. The workflow includes text preprocessing (tokenization, lemmatization, Word2Vec), model training with Random Forest and XGBoost (optimized via GridSearch), and deployment through a Flask-based user API.</p>
+            <div class="flex gap-3 mt-4">
+              <a href="https://github.com/igamelinia/Spam-Message-Detection" target="_blank" class="flex-1 text-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project</a>
+              <a href="https://drive.google.com/file/d/1Y8-k5Mgy4R0-IplcFtpK-4dTRIDkqxF3/view?usp=sharing" target="_blank" class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">🎥 Demo Video</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGfDxGb0HU/Tl9SKSSJr1IizWimKaxKZQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGfDxGb0HU&#x2F;Tl9SKSSJr1IizWimKaxKZQ&#x2F;view?utm_content=DAGfDxGb0HU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3 text-center">Fraud Detection</h3>
+          <p class="font-medium text-base text-slate-500 text-justify">This project focuses on detecting fraudulent transactions in financial data, where fraud cases are rare and challenging to identify due to class imbalance and evolving fraud patterns. I performed data preprocessing such as encoding, scaling, and handling imbalance, then trained and optimized multiple machine learning models (Logistic Regression, Decision Tree, Random Forest, and AdaBoost) using GridSearchCV</p>
+            <div class="flex gap-3 mt-4">
+              <a href="https://github.com/igamelinia/Fraud-Detection" target="_blank" class="flex-1 text-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGxWvSX2_Q/MtcZuod8mIgWQsqRx02i_A/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3">Customer Churn Prediction</h3>
+          <p class="font-medium text-base text-slate-500">In this project, I play the role of a data scientist who assists stakeholders in creating a retention strategy to retain customers by providing insights from analysis results and creating a Churn Prediction model</p>
+            <div class="flex gap-3 mt-4">
+              <div class="relative flex-1">
+                <button onclick="toggleDropdown('dropdown5')" class="w-full flex justify-center items-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project
+                  <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div id="dropdown5" class="hidden absolute z-10 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-200">
+                  <a href="https://your-webapp-link.com" target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">🌐 Web App</a>
+                  <a href="https://github.com/igamelinia/Game-Recommendation-System" target="_blank" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">💻 GitHub</a>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1BJaRi2B6UV-uOMoMhfspY_wqtta9sbNt/view?usp=sharing" target="_blank" class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">🎥 Demo Video</a>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <!-- Project 6
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded-lg shadow-lg border border-gray-300 p-5 bg-white">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGxQfziORw/KAu0tjBW1UM_MHPaMVSYvw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+            </div>
+          <h3 class="font-semibold text-xl text-black mt-5 mb-3">Network Security</h3>
+          <p class="font-medium text-base text-slate-500">In this project, I play the role of a data scientist who assists stakeholders in creating a retention strategy to retain customers by providing insights from analysis results and creating a Churn Prediction model</p>
+            <div class="flex gap-3 mt-4">
+              <a href="https://github.com/username/repo" target="_blank" class="flex-1 text-center px-4 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">🚀 Go Project</a>
+              <a href="https://drive.google.com/file/d/xxx/view" target="_blank" class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">🎥 Demo Video</a>
+            </div>
+          </div>
+        </div>
+        -->
+
+        
+    </div>
+    <div class="flex justify-center mt-4">
+      <a href="https://github.com/igamelinia?tab=repositories" target="_blank" class="px-6 py-2 bg-fuchsia-500 text-white rounded-lg shadow hover:bg-fuchsia-700 transition">See More of My Projects!</a>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
+
+
+  <!-- Skill & Experience Section Start -->
+  <section id="experience" class="pt-36 pb-32 bg-slate-700 ">
+    <div class="container mx-auto">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-fuchsia-400 mb-2">SKILLS & EXPERIENCE</h4>
+          <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">My Skills</h2>
+          <p class="font-medium text-md text-fuchsia-400 md:text-lg"> A summary of my technical expertise, tools, and soft skills that support my journey as a Data Scientist.</p>
+        </div>
+      </div>
+
+          <!-- SKILL SECTION -->
+
+              <!-- Grid Skills -->
+              <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 pb-10">
+                
+                <!-- Data Science Services -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <!-- Data Science -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">Data Science</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Data Cleaning & Preprocessing, Exploratory Data Analysis (EDA), Statistical Analysis, Business Intelligence, Feature Engineering
+                  </p>
+                </div>
+
+                <!-- Machine Learning Services -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400  mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">Machine Learning</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Supervised & Unsupervised Learning, Model Evaluation & Tuning, Deep Learning (TensorFlow, Keras)
+                  </p>
+                </div>
+
+                <!-- MLOps & Deployment -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">MLOps & Deployment</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Model Deployment, Containerization (Docker), Workflow Orchestration (Airflow), CI/CD Pipelines (Jenkins), MLflow, DVC, Git
+                  </p>
+                </div>
+
+                <!-- Programming & Tools -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">Programming & Tools</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Python, SQL, VS Code, Google Colab, MS Office
+                  </p>
+                </div>
+
+                <!-- Libraries -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">Libraries</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Pandas, NumPy, Scikit-learn, TensorFlow, Matplotlib, Seaborn
+                  </p>
+                </div>
+
+                <!-- API & Web Dev -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">API & Web Development</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Flask, HTML
+                  </p>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-fuchsia-500/40 transition transform hover:-translate-y-1 md:col-span-2 lg:col-span-3">
+                  <div class="flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-fuchsia-400 mx-auto" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                    </svg>
+                  </div>
+                  <h4 class="text-xl font-semibold bg-gradient-to-r from-fuchsia-400 to-cyan-400 bg-clip-text text-transparent mb-2 text-center">Soft Skills</h4>
+                  <p class="text-gray-300 text-center text-lg">
+                    Data Storytelling, Problem-Solving, Critical Thinking, Communication, Adaptability
+                  </p>
+                </div>
+
+            </div>
+
+            
+
+      <div class="w-full pt-10 border-t border-slate-200"></div>
+
+        <!-- EXPERIENCE SECTION -->
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+              <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">My Experiences</h2>
+              <p class="font-medium text-md text-fuchsia-400 md:text-lg">A showcase of my professional experiences, internships, and training programs, along with the technical skills I have developed throughout my journey in Data Science fields</p>
+            </div>
+
+      <!-- Timeline Grid -->
+      <div class="grid md:grid-cols-3 gap-12 px-4">
+  
+      <!-- Experience -->
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-6">Experience</h3>
+        <div class="relative border-l-2 border-fuchsia-500">
+          <!-- EXP 1 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-fuchsia-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-fuchsia-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2024</span>
+            <h4 class="text-lg font-semibold text-white">KAP Tambunan & Nasafi</h4>
+            <p class="text-fuchsia-300 font-medium">Data Scientist (Internship)</p>
+            <p class="mt-2 text-gray-200">
+              Successfully built an initial customer loan prediction model for the next 3 months, contributing to IT system improvements at KAP TNN
+            </p>
+          </div>
+          <!-- EXP 2 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-fuchsia-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-fuchsia-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2024</span>
+            <h4 class="text-lg font-semibold text-white">Lembaga Amil Zakat Nasional Mizan Amanah</h4>
+            <p class="text-fuchsia-300 font-medium">Data Scientist (Internship)</p>
+            <p class="mt-2 text-gray-200">
+              Conducted EDA, data preprocessing, and feature engineering (handling missing/duplicated values, categorical & time-series data) and delivered insights with actionable recommendations to stakeholders.
+            </p>
+          </div>
+          <!-- EXP 3 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-fuchsia-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-fuchsia-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2023</span>
+            <h4 class="text-lg font-semibold text-white">Kimia Farma x Rakamin Academy</h4>
+            <p class="text-fuchsia-300 font-medium">Big Data Analytics (Internship)</p>
+            <p class="mt-2 text-gray-200">
+              Created data marts and performed queries, analysis, and visualizations to deliver sales reports within one week, with strong ability in data storytelling
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootcamps -->
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-6">Bootcamps</h3>
+        <div class="relative border-l-2 border-emerald-500">
+          <!-- Bootcamp 1 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-emerald-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-emerald-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2024</span>
+            <h4 class="text-lg font-semibold text-white">Indonesia AI</h4>
+            <p class="text-emerald-300 font-medium">Machine Learning Specialist</p>
+            <p class="mt-2 text-gray-200 text-justify">
+              Learned ML fundamentals, Big Data, NLP, and built end-to-end machine learning projects.
+            </p>
+          </div>
+          <!-- Bootcamp 2 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-emerald-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-emerald-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2023</span>
+            <h4 class="text-lg font-semibold text-white">Digital Skola</h4>
+            <p class="text-emerald-300 font-medium">Data Scientist BNSP Certification</p>
+            <p class="mt-2 text-gray-200 text-justify">
+              Learning about basic to advance Data Science, SQL, Git, Programming and Analytics with Python, Dataframe, Statistics, Data Visualization, Data Prepocessing, and Machine Learning
+            </p>
+          </div>
+          <!-- Bootcamp 3 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-emerald-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-emerald-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2023</span>
+            <h4 class="text-lg font-semibold text-white">Rakamin Academy</h4>
+            <p class="text-emerald-300 font-medium">Business Intelligence</p>
+            <p class="mt-2 text-gray-200 text-justify">
+              Learning about BI Methodology and Fundamental of Business Understanding, Data Storytelling, Statistic Fundamentals, SQL Fundamentals, Data Visualization, Data Analysis, Data Aggregation, Interactive Dashboard for Insight and Bussiness Recommendation, Tableau Analytic and Deployment
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-6">Education</h3>
+        <div class="relative border-l-2 border-indigo-500">
+          <!-- Edu 1 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-indigo-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2022</span>
+            <h4 class="text-lg font-semibold text-white">Polytechnic of Health Jakarta II</h4>
+            <p class="text-indigo-300 font-medium">Bachelor of Applied Science Degree</p>
+            <p class="text-indigo-300 font-medium">Radiology</p>
+          </div>
+          <!-- Edu 2 -->
+          <div class="mb-10 ml-6">
+            <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2"></div>
+            <span class="inline-block bg-indigo-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">2018</span>
+            <h4 class="text-lg font-semibold text-white">State Senior High School 37 Jakarta</h4>
+            <p class="text-indigo-300 font-medium">Mathematics and Natural Sciences</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- Tutup Timeline Grid -->
+
+            
+
+
+<!--
+      <div class="w-full px-4">
+        <div class="flex flex-wrap items-center justify-center">
+          <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:max-6 xl:mx-8">
+            <img src="../img/clients/gojek.svg" alt="Gojek"/>
+          </a>
+          <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:max-6 xl:mx-8">
+            <img src="../img/clients/tokopedia.svg" alt="Tokopedia"/>
+          </a>
+          <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:max-6 xl:mx-8">
+            <img src="../img/clients/tokopedia.svg" alt="Tokped"/>
+          </a>
+          <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:max-6 xl:mx-8">
+            <img src="../img/clients/google.svg" alt="Google"/>
+          </a>
+        </div>
+      </div>
+    -->
+    </div>
+  </section>
+  <!-- Skill & Experience Section End -->
+
+
+  <!-- Certificate Section Start -->
+  <section id="certificate" class="pt-36 pb-32 bg-slate-100">
+    <div class="container mx-auto">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-fuchsia-500 mb-2">CERTIFICATIONS</h4>
+          <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">My Certifications</h2>
+          <p class="font-medium text-md text-fuchsia-500 md:text-lg">Relevant certifications that validate my skills and expertise in Data Science and Machine Learning</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap">
+
+        <!-- Certificate 1 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Virtual Intern Big Data Analyst (Kimia Farma).jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Virtual Intern Big Data Analyst by Kimia Farma x Rakamin Academy</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/BI Analyst 2023_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Data Science : Business Intelligence</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Data Science Bootcamp Certificate - Digital Skola_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://drive.google.com/drive/folders/1m2fol8y797E3MFB6utSK-0zA857VRDMe?usp=drive_link" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Certificate of Graduation Data Science Course</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/DS_BNSP_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://drive.google.com/drive/folders/1m2fol8y797E3MFB6utSK-0zA857VRDMe?usp=drive_link" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Bootcamp of Data Science BNSP Certification</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Dicoding Sertifikat Kompetensi - Belajar Dasar Visualisasi Data_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.dicoding.com/certificates/0LZ02V41QX65" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Dicoding - Fundamental Data Visualization</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Dicoding Sertifikat Kompetensi - Belajar Machine Learning Untuk Pemula_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.dicoding.com/certificates/QLZ97Q8V9P5D" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Dicoding - Fundamental Machine Learning</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 7 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/TensorFlow DL.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-fbb832a5-0dc4-4f4c-89d4-501eed860946/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - TensorFlow for Deep Learning Bootcamp</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 8 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/MLOps Bootcamp.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-fe4f7871-2052-4503-886f-478a1a3a2902/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - MLOps Bootcamp: Mastering AI Operations for Success - AIOps</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 9 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Complet DS ML DL NLP.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-c141bfb8-a135-4c18-8c10-9e0dc76cedd9/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - Complete Data Science, Machine Learning, Deep Learning, NLP Bootcamp</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 10 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Gen AI with Langchain.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-09c3255e-9ab1-4a4b-be80-3f39ec799aa5/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - Complete Generative AI Course With Langchain and Huggingface</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 11 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/MLOps End to End.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-72cbb9b7-9d8b-46bc-af0e-23476f8565a3/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - Complete MLOps Bootcamp With 10+ End to End Machine Learning Projects</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 12 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Big Data Engineering GCP.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://www.udemy.com/certificate/UC-9a6b9e0d-8d98-4689-af1f-25f782a190a4/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Udemy - Big Data Engineering Bootcamp with GCP and Azure Cloud</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+        <!-- Certificate 13 -->
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3 mx-auto">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Machine Learning Bootcamp Certificate - Indo AI_page-0001.jpg" alt="Virtual Intern Big Data Analyst" class="w-full cursor-pointer preview-img" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="https://aiforindonesia.com/certificate/AIIB2502030001/" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 text-center">Indonesia AI Career Bootcamp Batch 6 Machine Learning Specialist</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+          <div class="absolute inset-0 modal-overlay"></div>
+          <img id="modalImage" class="relative z-10 max-w-4xl max-h-[90%] rounded shadow-lg" />
+          <span class="absolute top-5 right-8 text-white text-4xl cursor-pointer z-20 modal-close">&times;</span>
+        </div>
+
+<!-- /// TEMPLATE LAMA
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Big Data Engineering GCP.jpg" alt="Coffee" class="w-full" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 truncate">Mengcoffee</a>
+              </h3>
+              <p class="font-medium text-base text-slate-500 mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in dolore modi tempora. Provident, dolorem exercitationem.</p>
+              <a href="#" class="font-medium text-sm text-white bg-fuchsia-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Big Data Engineering GCP.jpg" alt="Coffee" class="w-full" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 truncate">Mengcoffee</a>
+              </h3>
+              <p class="font-medium text-base text-slate-500 mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in dolore modi tempora. Provident, dolorem exercitationem.</p>
+              <a href="#" class="font-medium text-sm text-white bg-fuchsia-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="../img/certificates/Big Data Engineering GCP.jpg" alt="Coffee" class="w-full" />
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-fuchsia-500 truncate">Mengcoffee</a>
+              </h3>
+              <p class="font-medium text-base text-slate-500 mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in dolore modi tempora. Provident, dolorem exercitationem.</p>
+              <a href="#" class="font-medium text-sm text-white bg-fuchsia-500 py-3 px-6 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+-->
+
+      </div>
+    </div>
+  </section>
+  <!-- Certificate Section End -->
+
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="pt-36 pb-32">
+    <div class="container mx-auto">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-fuchsia-500 mb-2">CONTACT</h4>
+          <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Us</h2>
+          <p class="font-medium text-md text-fuchsia-500 md:text-lg">If you are interested in discussing, collaborating, or have any questions, feel free to reach out through the form below. I am open to opportunities for collaboration, discussions, or inquiries and will respond as soon as possible!</p>
+        </div>
+      </div>
+
+      <form action="https://formsubmit.co/igamelinia13@gmail.com" method="POST">
+        <div class="w-full lg:w-2/3 lg:mx-auto">
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base text-fuchsia-500 font-bold">Name</label>
+            <input type="text" name="name" id="name" required class="w-full bg-slate-200 text-black p-3 rounded-md" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base text-fuchsia-500 font-bold">Email</label>
+            <input type="email" name="email" id="email" required class="w-full bg-slate-200 text-black p-3 rounded-md" />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="message" class="text-base text-fuchsia-500 font-bold">Message</label>
+            <textarea name="message" id="message" required class="w-full bg-slate-200 text-black p-3 rounded-md h-32"></textarea>
+          </div>
+          <div class="w-full">
+            <button type="submit" class="text-base font-semibold text-white bg-fuchsia-500 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  
+  <!-- Footer Start -->
+  <footer class="bg-slate-900 pt-24 pb-12">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <h2 class="font-bold text-4xl text-white mb-5">IGA Meliniarayani</h2>
+          <h3 class="font-bold text-2xl mb-2">Reach Us</h3>
+          <p>+62 855-9133-8510</p>
+          <p>igamelinia13@gmail.com</p>
+          <p>Jakarta, Indonesia</p>
+        </div>
+
+        <!---
+        <div class="w-full px-4 mb-12 md:w-1/3">
+          <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+          <ul>
+            <li>
+              <a href="#" class="inline-block text-base text-white hover:text-fuchsia-500">Programming</a>
+            </li>
+            <li>
+              <a href="#" class="inline-block text-base text-white hover:text-fuchsia-500">Keyboard</a>
+            </li>
+            <li>
+              <a href="#" class="inline-block text-base text-white hover:text-fuchsia-500">Mengcoffee</a>
+            </li>
+          </ul>
+        </div>
+        -->
+      </div>
+
+      <div class="w-full pt-10 border-t border-slate-700">
+        <div class="flex items-center justify-center mb-5">
+            <!-- GitHub -->
+            <a href="https://github.com/igamelinia" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/igustiayumeliniarayani/" target="_blank" class="w-9 h-9 mr-3 flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" xmlns="http://www.w3.org/2000/svg" width="32" class="fill-current" height="32" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+
+            <!-- Gmail -->
+            <a href="igamelinia13@gmail.com" target="_blank" class="w-9 h-9 mr-3 flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            </a>
+
+            <!-- Whatsapp -->
+            <a href="http://wa.me/+6285591338510" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-400 hover:bg-fuchsia-500 hover:text-white">
+              <svg role="img" width="32" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>            </a>
+          </div>
+          <p class="font-medium text-s text-slate-500 text-center">© Copyright 2025</a>
+          </p>
+          <p class="font-medium text-s text-slate-500 text-center">Made by <a class="text-medium font-semibold bg-gradient-to-r from-fuchsia-400 to-indigo-400 bg-clip-text text-transparent mb-2 text-center">I Gusti Ayu Meliniarayani</a>, with <a href="https://tailwindcss.com/" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a>
+          </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+    <script src="../dist/script.js"></script>
+  </body>
+</html>
